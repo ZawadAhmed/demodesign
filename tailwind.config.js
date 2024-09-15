@@ -7,6 +7,7 @@ module.exports = {
           'c-white':'#FFFDF9',
           'neutrals': '#EBE9E5',
           'prblue': '#004E98',
+          'beige': '#DDCFB1'
         }
     },
   },

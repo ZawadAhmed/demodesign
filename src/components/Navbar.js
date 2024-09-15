@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Logo from '../BeigeLogo.svg'
+import world from '../icons/world.svg'
 // import { motion } from "framer-motion";
 //  import CloseIcon from '@mui/icons-material/Close';
 //  import MenuIcon from '@mui/icons-material/Menu';
@@ -69,11 +70,13 @@ export const Navbar = () => {
             <a href="#" className="text-gray-700 hover:text-blue-500">Gesuch stellen</a>
             <a href="#" className="text-gray-700 hover:text-blue-500">Über uns</a>
          
-            {/* <div className="flex items-center space-x-4s">
+            
+            <div className="flex items-center space-x-2">
+            <img src={world} className="color-prblue" alt="logo" /> 
             <a href="#" className="text-gray-700 hover:text-blue-500">DE</a>
             <span>|</span>
             <a href="#" className="text-gray-700 hover:text-blue-500">EN</a>
-            </div> */}
+            </div>
 
             <div className="space x-6">
              <a href="#" className="bg-prblue text-white px-12 py-4 pt-4 rounded hover:bg-blue-600 transition"
